@@ -1,75 +1,59 @@
-# Nuxt Minimal Starter
+# 🧭 Pathfinder – AI-Powered Life Clarity & Wellbeing Tracker
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Pathfinder** is a personal wellbeing and career clarity tool designed for young professionals seeking focus, motivation, and direction. It uses AI to help users reflect on their emotional state, set meaningful weekly goals, and track progress — all in a beautiful and empathetic interface.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 🧠 Why I Built This
+
+Pathfinder is part of a 3-project portfolio series exploring:
+- Human-centered UI/UX design
+- Real-world applications of AI in personal development
+- Multi-project structuring and modular coding
+
+Other projects:
+- [Clairvoyant – AI Legal Assistant for Contracts](#) *(in progress)*
+- [Second Brain AI – Developer-Focused Config Inspector](#) *(planned)*
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: Nuxt 3, Vue 3, Tailwind CSS, Shadcn/ui
+- **Backend-as-a-Service**: Supabase (Auth, DB)
+- **AI Layer**: LangChain + OpenAI API
+- **Tooling**: TypeScript, ESLint, Prettier
+
+---
+
+## 🔍 Features
+
+- ✅ Initial emotional/career assessment quiz
+- ✅ Daily check-in for energy + satisfaction tracking
+- ✅ Weekly goals with AI suggestions
+- ✅ Personalized AI insights based on user input
+- ✅ Exportable weekly wellbeing reports (PDF)
+- ✅ Supabase authentication + data persistence
+
+---
+
+## 🖼️ UI Screenshots
+
+| Dashboard | AI Insight Panel | Goal Tracker |
+|----------|------------------|--------------|
+| ![Dashboard](./screenshots/dashboard.png) | ![AI](./screenshots/insight.png) | ![Goals](./screenshots/goals.png) |
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-# npm
+# Clone repo
+git clone https://github.com/your-username/pathfinder.git
+cd pathfinder
+
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Run dev server
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
