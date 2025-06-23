@@ -19,7 +19,7 @@ Other projects:
 
 ## 🧰 Tech Stack
 
-- **Frontend**: Nuxt 3, Vue 3, Tailwind CSS, Shadcn/ui
+- **Frontend**: Nuxt 3, Vue 3, Tailwind CSS, Nuxt UI
 - **Backend-as-a-Service**: Supabase (Auth, DB)
 - **AI Layer**: LangChain + OpenAI API
 - **Tooling**: TypeScript, ESLint, Prettier
